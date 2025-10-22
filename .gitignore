@@ -5,6 +5,7 @@
 pm_bin
 a.out
 *_bin
+*_test
 eo_bin
 positive_or_negative_new
 
