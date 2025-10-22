@@ -3,6 +3,10 @@
 *.out
 *_bin
 lt_bin
+*_bin
+*.o
+*.out
+a.out
 
 # Editor files
 *.swp
@@ -13,3 +17,4 @@ lt_bin
 # OS files
 .DS_Store
 Thumbs.db
+.DS_Store
