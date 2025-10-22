@@ -11,3 +11,19 @@ eo_bin
 
 # OS files
 .DS_Store
+lt_bin
+*_bin
+*.o
+*.out
+a.out
+
+# Editor files
+*.swp
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store
