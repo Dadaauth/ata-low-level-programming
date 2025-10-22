@@ -1,0 +1,10 @@
+# Compiled binaries
+*_bin
+*.o
+*.out
+a.out
+
+# Editor files
+*.swp
+*~
+.DS_Store
