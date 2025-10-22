@@ -1,6 +1,9 @@
 # Compiled binaries
 *.o
 *.out
+*.exe
+pm_bin
+a.out
 *_bin
 eo_bin
 
