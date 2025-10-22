@@ -6,14 +6,30 @@
  * Description: Takes an integer as input and prints whether
  * it is positive, negative, or zero.
  *
- * Return: 0 (Success)
+ * Return: 0 (Success), 1 (Invalid input)
  */
 int main(void)
 {
 	int num;
+	int result;
+	char c;
 
 	printf("Enter an integer: ");
-	scanf("%d", &num);
+	result = scanf("%d", &num);
+
+	if (result != 1)
+	{
+		fprintf(stderr, "Error: Invalid input. Please enter an integer.\n");
+		return (1);
+	}
+
+	/* Check if there's any trailing non-whitespace character */
+	result = scanf("%c", &c);
+	if (result == 1 && c != '\n' && c != ' ' && c != '\t')
+	{
+		fprintf(stderr, "Error: Invalid input. Please enter an integer.\n");
+		return (1);
+	}
 
 	if (num > 0)
 	{

@@ -6,6 +6,7 @@ pm_bin
 a.out
 *_bin
 eo_bin
+positive_or_negative_new
 
 # Editor files
 *~
