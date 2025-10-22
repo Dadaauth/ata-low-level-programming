@@ -2,6 +2,15 @@
 *.o
 *.out
 *_bin
+eo_bin
+
+# Editor files
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
 lt_bin
 *_bin
 *.o
